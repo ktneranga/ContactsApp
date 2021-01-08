@@ -1,0 +1,4 @@
+{
+    "mongoUri" : "mongodb+srv://teran123:teran123@contactkeeper.lt6wj.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "jwtSecret" : "secretkey"
+}
