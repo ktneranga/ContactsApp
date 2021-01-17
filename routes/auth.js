@@ -27,7 +27,7 @@ router.get('/', auth ,async (req, res)=>{
 
 //@route        POST api/auth
 //@desc         auth user and log in
-//@access       public => submit user details -> authenticate-> get the token
+//@access       public => submit user details -> authenticate-> get the toke n
 
 router.post('/', [
     check('email', 'Please enter a valid email!').isEmail(),
